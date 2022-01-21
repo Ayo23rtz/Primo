@@ -1,0 +1,7 @@
+Crear una función es_primo(n), la cual recibe un número como argumento y retorna True si es primo, False si no es primo. Un número primo es aquel que solo puede dividirse por uno y por sí mismo (p. ej., 2, 3, 5, 7, 11, 13, 17, etc.). Hay varios algoritmos en programación para saber si un número es primo; pero en este caso vamos a usar el más sencillo de todos (aunque también el menos eficiente). Cuando reciben el número del argumento, tienen que dividirlo por todos los números desde el 2 hasta un número menos que el ingresado. En cada división deben chequear si resto de la división es cero. Si alguna de esas divisiones tiene por resto cero (por ejemplo, 6 no es un número primo, porque 6/2 da 3, y el resto es 0), entonces ya saben que el número no es primo. Si ninguna de esas divisiones tiene por resto cero (por ejemplo, 5 es primo, porque ni 5/2, ni 5/3, ni 5/4 tienen resto 0), el número es primo.
+
+Una vez creada la función, después simplemente hagan algunas pruebas para chequear que hayan implementado el algoritmo correctamente:
+
+print(es_primo(13))   # True
+
+print(es_primo(20))  # False
