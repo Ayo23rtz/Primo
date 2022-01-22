@@ -5,3 +5,5 @@ Una vez creada la función, después simplemente hagan algunas pruebas para cheq
 print(es_primo(13))   # True
 
 print(es_primo(20))  # False
+
+--commit de base llamado--> primer resolucion
